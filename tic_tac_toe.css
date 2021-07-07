@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(to right, rgb(0, 255, 234),rgb(0, 162, 255));
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+    font-size: 50pt;
+    text-align: center;
+    background-color: aqua;
+    border: none;
+    /* box-shadow: 10px 10px 50px black; */
+}
+#checks{
+    box-shadow: 1px 1px 8px black;
+    width: fit-content;
+    margin-left: 80px;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    body{
+        background-image: linear-gradient(to right, rgb(0, 255, 234),rgb(0, 162, 255));
+    }
+    #b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 5px;
+        font-size: 50pt;
+        text-align: center;
+        background-color: aqua;
+        border: none;
+        /* box-shadow: 10px 10px 50px black; */
+    }
+    #b1:disabled,#b2:disabled,#b3:disabled,#b4:disabled,#b5:disabled,#b6:disabled,#b7:disabled,#b8:disabled,#b9:disabled{
+        /* height: 80px;
+        width: 80px;
+        margin-bottom: 5px;
+        font-size: 50pt;
+        text-align: center; */
+        background-color: rgb(0, 183, 255);
+        /* border: none; */
+        /* box-shadow: 10px 10px 50px black; */
+    }
+    #checks{
+        box-shadow: 1px 1px 8px black;
+        width: fit-content;
+        margin-left: 30px;
+        margin-top: 80px;
+        text-align: center;
+        padding: 10px;
+    }
+    #footer{
+        position: absolute;
+        bottom: 0px;
+    }
+}
